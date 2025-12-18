@@ -1,7 +1,6 @@
 package tienda;
 
 public class Usuario {
-    // TUS VARIABLES EXISTENTES (NO LAS CAMBIO)
     private Nombre nombreCompleto;
     private Direccion direccion;
     private String DNI;
@@ -9,19 +8,15 @@ public class Usuario {
     private String correoElectronico;
     private String nombreUsuario;
     private String contrasenya;
-
-    // VARIABLES NUEVAS QUE NECESITAS
     private boolean esAdministrador;
     private Carrito carrito;
     private Pedido[] pedidos = new Pedido[100];
     private int numPedidos = 0;
 
-    // Constructor
     public Usuario() {
         this.carrito = new Carrito();
     }
-
-    // TUS GETTERS Y SETTERS EXISTENTES (NO LOS CAMBIO)
+    
     public Nombre getNombreCompleto() {
         return nombreCompleto;
     }
