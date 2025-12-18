@@ -34,10 +34,7 @@ src/
 4. Run the `Main` class
 
 ## 📌 Example Code
-
-```java
-  <img width="1458" height="440" alt="imagen" src="https://github.com/user-attachments/assets/1d3efae3-0da6-4cfc-8b7d-4ccb8b3bc0a8" />
-```
+ <img width="1458" height="440" alt="imagen" src="https://github.com/user-attachments/assets/1d3efae3-0da6-4cfc-8b7d-4ccb8b3bc0a8" />
 
 ## 📚 What I Learned
 
