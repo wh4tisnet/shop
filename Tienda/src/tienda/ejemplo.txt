@@ -1,0 +1,16 @@
+• No se puede tener dos usuarios con el mismo nombre.
+• Se debe contar con un array de productos, los cuales deben ser introducidos únicamente por el usuario administrador.
+
+• Se deben poder eliminar y modificar productos. De un producto solo se puede modificar el precio, así que se debe poder hacer esta tarea.
+• Un usuario que no es de tipo administrador debe poder añadir estos a un carrito de la compra. El carrito debe estar compuesto por un conjunto de productos y un precio total, además de los gastos de envío pertinentes. Los gastos de envío serán los siguientes:
+    ◦ Si la compra total es menor o igual a 30€ -> 10€
+    ◦ Si la compra total es mayor que 30€ y menor a 60€-> 5€
+    ◦ Si la compra es superior a 60€ -> Gratis.
+• Hay que tener en cuenta que se pueden añadir al carrito más de un producto del mismo tipo.
+• Se deben poder eliminar productos del carrito y modificar la cantidad total de productos de un tipo en este.
+• En cualquier momento, el usuario debe poder ver los productos del carrito, la cantidad de estos y el precio total con los gastos de envío (desglosado).
+
+• El usuario administrador puede ver los pedidos y cambiar el estado de manera manual. Normalmente, cambiará el estado de preparado a enviado.
+• Cuando el usuario reciba el pedido, debe marcar este como recibido.
+
+• Cuando el usuario reciba el pedido, debe marcar este como recibido.
