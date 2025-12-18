@@ -1,0 +1,61 @@
+• El sistema debe mostrar inicialmente un menú que debe mostrar las opciones login o registrarse.
+• Si se elige la opción de login, se debe mostrar una pantalla donde se deben indicar el nombre del usuario y la contraseña. 
+• En caso de elegir la opción de registrarse se deben pedir todos los datos al usuario. Estos datos deben ser:
+    ◦ Nombre completo (Nombre, primer apellido, segundo apellido).
+    ◦ Dirección, compuesta por tipo de vía, nombre de la vía, número, puerta, ciudad, provincia y código postal. El tipo de vía puede ser calle, avenida, urbanización o bulevar.
+    ◦ DNI
+    ◦ Números de teléfono, ya que puede tener más de uno.
+    ◦ Correo electrónico. 
+    ◦ Nombre de usuario.
+    ◦ Contraseña.
+• La contraseña debe indicarse dos veces para validarse.
+• El sistema guardará un array de usuarios. No se puede tener dos usuarios con el mismo nombre.
+• Inicialmente el sistema debe contar con un usuario administrador ya creado con nombre de usuario admin y contraseña admin. De este usuario no es necesario saber todos los datos salvo el usuario y la contraseña.
+• Se debe contar con un array de productos, los cuales deben ser introducidos únicamente por el usuario administrador. 
+• Cuando el usuario deba añadir un producto, se le deben pedir los siguientes datos:
+    ◦ Nombre del producto.
+    ◦ Color.
+    ◦ Precio.
+    ◦ Tipo de producto.
+    ◦ Tallaje.
+• Los colores del producto pueden ser:
+    ◦ Blanco
+    ◦ Negro
+    ◦ Azul
+    ◦ Rojo
+    ◦ Verde
+    ◦ Amarillo
+    ◦ Naranja
+    ◦ Multicolor
+    ◦ Estampada
+    ◦ Con dibujo
+• Los tallajes pueden ser:
+    ◦ XS
+    ◦ S
+    ◦ M
+    ◦ L
+    ◦ XL
+    ◦ XXL
+• El tipo de producto puede ser:
+    ◦ Pantalones
+    ◦ Camisetas
+    ◦ Sudaderas
+    ◦ Calcetines
+    ◦ Chaquetas
+• Se deben poder eliminar y modificar productos. De un producto solo se puede modificar el precio, así que se debe poder hacer esta tarea.
+• Un usuario que no es de tipo administrador debe poder añadir estos a un carrito de la compra. El carrito debe estar compuesto por un conjunto de productos y un precio total, además de los gastos de envío pertinentes. Los gastos de envío serán los siguientes:
+    ◦ Si la compra total es menor o igual a 30€ -> 10€
+    ◦ Si la compra total es mayor que 30€ y menor a 60€-> 5€
+    ◦ Si la compra es superior a 60€ -> Gratis.
+• Hay que tener en cuenta que se pueden añadir al carrito más de un producto del mismo tipo.
+• Se deben poder eliminar productos del carrito y modificar la cantidad total de productos de un tipo en este.
+• En cualquier momento, el usuario debe poder ver los productos del carrito, la cantidad de estos y el precio total con los gastos de envío (desglosado).
+• El usuario puede confirmar el pedido y este cambiará de estado ha confirmado. Los estados de un pedido son:
+    ◦ Inicial
+    ◦ Confirmado
+    ◦ Enviado
+    ◦ Recibido
+• El usuario administrador puede ver los pedidos y cambiar el estado de manera manual. Normalmente, cambiará el estado de preparado a enviado.
+• Cuando el usuario reciba el pedido, debe marcar este como recibido.
+
+• Cuando el usuario reciba el pedido, debe marcar este como recibido.
