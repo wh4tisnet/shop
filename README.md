@@ -21,6 +21,7 @@ This project is a simple Java application created to practice **Object-Oriented 
 src/
  ├── tienda/
    └── *.java
+```
 
 ## ▶️ How to Run
 
@@ -35,4 +36,7 @@ src/
 
 ## 📌 Example Code
  <img width="1458" height="440" alt="imagen" src="https://github.com/user-attachments/assets/1d3efae3-0da6-4cfc-8b7d-4ccb8b3bc0a8" />
+
+
+
 
